@@ -1,0 +1,65 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'getaddrinfo' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 warn package.json accessibletodolist@0.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'getaddrinfo', null ]
+7 verbose cache add name=undefined spec="getaddrinfo" args=["getaddrinfo",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'getaddrinfo',
+8 verbose parsed url   path: 'getaddrinfo',
+8 verbose parsed url   href: 'getaddrinfo' }
+9 silly lockFile 5b726d2c-getaddrinfo getaddrinfo
+10 verbose lock getaddrinfo /Users/fauverism/.npm/5b726d2c-getaddrinfo.lock
+11 silly lockFile 5b726d2c-getaddrinfo getaddrinfo
+12 silly lockFile 5b726d2c-getaddrinfo getaddrinfo
+13 verbose addNamed [ 'getaddrinfo', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 577d0342-getaddrinfo getaddrinfo@
+16 verbose lock getaddrinfo@ /Users/fauverism/.npm/577d0342-getaddrinfo.lock
+17 silly addNameRange { name: 'getaddrinfo', range: '*', hasData: false }
+18 verbose url raw getaddrinfo
+19 verbose url resolving [ 'https://registry.npmjs.org/', './getaddrinfo' ]
+20 verbose url resolved https://registry.npmjs.org/getaddrinfo
+21 info trying registry request attempt 1 at 17:56:04
+22 http GET https://registry.npmjs.org/getaddrinfo
+23 http 404 https://registry.npmjs.org/getaddrinfo
+24 silly registry.get cb [ 404,
+24 silly registry.get   { date: 'Wed, 18 Jun 2014 21:56:04 GMT',
+24 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'cache-control': 'max-age=0',
+24 silly registry.get     'content-length': '52',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     age: '0',
+24 silly registry.get     'x-served-by': 'cache-jfk1027-JFK',
+24 silly registry.get     'x-cache': 'MISS',
+24 silly registry.get     'x-cache-hits': '0',
+24 silly registry.get     'x-timer': 'S1403128564.469734,VS0,VE87',
+24 silly registry.get     'keep-alive': 'timeout=10, max=50',
+24 silly registry.get     connection: 'Keep-Alive' } ]
+25 silly lockFile 577d0342-getaddrinfo getaddrinfo@
+26 silly lockFile 577d0342-getaddrinfo getaddrinfo@
+27 error 404 'getaddrinfo' is not in the npm registry.
+27 error 404 You should bug the author to publish it
+27 error 404 It was specified as a dependency of 'accessibletodolist'
+27 error 404
+27 error 404 Note that you can also install from a
+27 error 404 tarball, folder, or http url, or git url.
+28 error System Darwin 13.2.0
+29 error command "node" "/usr/local/bin/npm" "install" "getaddrinfo"
+30 error cwd /Users/fauverism/Documents/github/Accessible-TODO-List
+31 error node -v v0.10.26
+32 error npm -v 1.4.3
+33 error code E404
+34 verbose exit [ 1, true ]
